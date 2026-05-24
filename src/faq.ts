@@ -64,7 +64,7 @@ export const FAQ_SECTIONS: FAQSection[] = [
       },
       {
         q: 'When do I get paid?',
-        a: 'Payouts are released when the buyer confirms receipt or 48 hours after delivery is confirmed via tracking, whichever comes first. This ensures funds are available if a dispute is opened. After the release, your payout transfers to your connected bank account (typically 2 business days).',
+        a: 'Payouts are released when the buyer confirms receipt or 48 hours after delivery is confirmed via tracking, whichever comes first. This ensures funds are available if a dispute is opened. After the release, your payout transfers to your connected bank account automatically (typically 2 business days).',
       },
       {
         q: 'How does payment actually reach me?',
@@ -75,8 +75,8 @@ export const FAQ_SECTIONS: FAQSection[] = [
         a: 'You can create listings without Stripe connected, but buyers won\'t be able to complete checkout until your payout account is set up. We\'ll prompt you to connect it from your dashboard.',
       },
       {
-        q: 'What happens if a buyer disputes?',
-        a: 'You have 5 days to respond to a dispute. If you don\'t, it\'s automatically resolved in the buyer\'s favor. Once you respond, both parties can exchange messages and additional evidence for up to 7 days while our team reviews. Possible outcomes include partial refund, full refund (with or without return), or dispute denied. Refunds come from your pending balance. See our dispute policy for full details.',
+        q: 'What happens if a buyer opens a dispute?',
+        a: 'You\'ll get a notification and have 5 days to respond. You can review the buyer\'s claim, upload your own evidence, and propose a resolution (accept refund, counter with partial refund, or deny). If you don\'t respond within 5 days, the dispute is automatically resolved in the buyer\'s favor. Once you respond, both parties can exchange messages and additional evidence for up to 7 days while our team reviews. Possible outcomes include partial refund, full refund (with or without return), or dispute denied.',
       },
       {
         q: 'Can I list auctions?',
@@ -96,7 +96,11 @@ export const FAQ_SECTIONS: FAQSection[] = [
       },
       {
         q: 'How long do I have to ship?',
-        a: 'You have 5 days from when the buyer completes payment. If you don\'t ship within that window, the order is automatically cancelled, the buyer is refunded, and your listing is reactivated.',
+        a: 'Sellers must ship within 5 business days of payment. If you don\'t ship within that window, the order is automatically cancelled, the buyer is refunded, and your listing is reactivated.',
+      },
+      {
+        q: 'How do I ship my records safely?',
+        a: 'Use a sturdy mailer with cardboard stiffeners or a purpose-built LP mailer. Wrap the record in a plastic sleeve and cushion it to prevent seam splits. Always use tracked shipping \u2014 you\'re required to add a tracking number to every order.',
       },
       {
         q: 'Can I set a minimum offer price?',
@@ -151,6 +155,15 @@ export const FAQ_SECTIONS: FAQSection[] = [
     ],
   },
   {
+    heading: 'Shipping',
+    questions: [
+      {
+        q: 'Is tracking required?',
+        a: 'Yes. Sellers are required to provide a valid tracking number for every order. This protects both parties in case of disputes.',
+      },
+    ],
+  },
+  {
     heading: 'Offers & messaging',
     questions: [
       {
@@ -166,6 +179,10 @@ export const FAQ_SECTIONS: FAQSection[] = [
   {
     heading: 'Buyer & seller protection',
     questions: [
+      {
+        q: 'How does payment protection work?',
+        a: 'When a buyer pays, funds go directly to the seller\'s Stripe account. Payouts to the seller\'s bank are held until delivery is confirmed via tracking, then there\'s a 48-hour inspection window. If no dispute is opened, the payout is released to the seller\'s bank account.',
+      },
       {
         q: 'How does buyer protection work?',
         a: 'Payment goes directly to the seller\'s Stripe account, but payouts to their bank are held until delivery is confirmed, then released 48 hours later. If a record arrives damaged or not as described, open a dispute from your order page before the payout is released. Our team reviews the case and can issue a full or partial refund from the seller\'s balance. Stripe\'s 120-day chargeback window provides an additional layer of protection.',
