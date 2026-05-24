@@ -4,11 +4,12 @@ export const DISPUTE_POLICY_SECTIONS: DisputePolicySection[] = [
   {
     heading: 'How disputes work',
     items: [
-      'If something goes wrong with an order, the buyer can open a dispute directly from the order page.',
+      'If something goes wrong with an order, the buyer can open a dispute directly from the order page. Disputes can only be opened on orders that are currently shipping or have been delivered.',
       'Upload photos showing the issue and describe what happened.',
-      'The seller has 5 days to respond to the dispute. If the seller doesn\'t respond, the dispute is automatically resolved in the buyer\'s favor with a full refund.',
-      'Once the seller responds, both parties can exchange messages and additional evidence through the dispute thread.',
-      'dollrbin reviews the evidence from both sides and makes a final decision.',
+      'The seller has 5 days to respond to the dispute with one proposal (accept refund, counter with partial refund, propose return, or deny). If the seller doesn\'t respond, the dispute is automatically resolved in the buyer\'s favor with a full refund.',
+      'If the seller proposes a resolution, the buyer has 5 days to accept or escalate to dollrbin. If the buyer doesn\'t respond, the seller\'s proposal is automatically accepted.',
+      'Both parties can exchange messages and additional evidence through the dispute thread while the case is open.',
+      'If escalated, dollrbin reviews the evidence from both sides and makes a final decision.',
     ],
   },
   {
@@ -54,8 +55,9 @@ export const DISPUTE_POLICY_SECTIONS: DisputePolicySection[] = [
     heading: 'Timeline',
     items: [
       'Dispute window: buyers can open a dispute within the 48-hour inspection window after delivery is confirmed via tracking.',
-      'Seller response: the seller has 5 days to respond. A reminder is sent after 48 hours. If the seller doesn\'t respond, the dispute is resolved in the buyer\'s favor.',
-      'Dispute messaging: once the seller responds, both parties can exchange messages and photos for up to 7 days while dollrbin reviews.',
+      'Seller response: the seller has 5 days to respond with one proposal. A reminder is sent after 48 hours. If the seller doesn\'t respond, the dispute is resolved in the buyer\'s favor.',
+      'Buyer response: if the seller proposes a resolution, the buyer has 5 days to accept or escalate. If the buyer doesn\'t respond, the seller\'s proposal is automatically accepted.',
+      'Dispute messaging: both parties can exchange messages and photos through the dispute thread while the case is open.',
       'Return deadline: if a return is required, the buyer has 7 days to ship it. The seller has 7 days to confirm or reject the return after receiving it.',
       'Refund processing: once approved, refunds are processed immediately.',
     ],

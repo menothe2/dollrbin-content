@@ -76,7 +76,7 @@ export const FAQ_SECTIONS: FAQSection[] = [
       },
       {
         q: 'What happens if a buyer opens a dispute?',
-        a: 'You\'ll get a notification and have 5 days to respond. You can review the buyer\'s claim, upload your own evidence, and propose a resolution (accept refund, counter with partial refund, or deny). If you don\'t respond within 5 days, the dispute is automatically resolved in the buyer\'s favor. Once you respond, both parties can exchange messages and additional evidence for up to 7 days while our team reviews. Possible outcomes include partial refund, full refund (with or without return), or dispute denied.',
+        a: 'You\'ll get a notification and have 5 days to respond with one proposal. You can review the buyer\'s claim, upload your own evidence, and propose a resolution (accept refund, counter with partial refund, or deny). If you don\'t respond within 5 days, the dispute is automatically resolved in the buyer\'s favor. Once you respond, the buyer has 5 days to accept your proposal or escalate to our team. If the buyer doesn\'t respond, your proposal is automatically accepted. Both parties can exchange messages through the dispute thread while the case is open.',
       },
       {
         q: 'Can I list auctions?',
