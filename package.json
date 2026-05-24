@@ -1,0 +1,10 @@
+{
+  "name": "@dollrbin/content",
+  "version": "1.0.0",
+  "description": "Shared legal, policy, and FAQ content for dollrbin web and mobile",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {},
+  "license": "UNLICENSED",
+  "private": true
+}
