@@ -23,7 +23,7 @@ export const FAQ_SECTIONS: FAQSection[] = [
     questions: [
       {
         q: 'Are there any fees for buyers?',
-        a: 'There\'s a small service fee added at checkout: 10% of the item price, with a $1 minimum. This covers buyer protection and platform costs. You\'ll see the exact total before you pay.',
+        a: 'There\'s a small service fee added at checkout: 3% of the item price, with a $0.50 minimum. This covers buyer protection and platform costs. You\'ll see the exact total before you pay.',
       },
       {
         q: 'What happens if my record never arrives?',
@@ -50,6 +50,10 @@ export const FAQ_SECTIONS: FAQSection[] = [
         a: 'You need an account to buy. It takes about 30 seconds to sign up and lets us protect your order and handle any issues that come up.',
       },
       {
+        q: 'Will I be charged sales tax?',
+        a: 'Sales tax is calculated and added at checkout where required by law, based on your shipping address. dollrbin collects and remits sales tax as a marketplace facilitator. The exact amount is shown before you pay.',
+      },
+      {
         q: 'Will I be charged import duties on international orders?',
         a: 'International orders may be subject to import duties, taxes, or customs fees charged by your country. These fees are determined and collected by your local customs authority, not by dollrbin or the seller. They are the buyer\'s responsibility and are not included in the item price or shipping cost.',
       },
@@ -60,7 +64,7 @@ export const FAQ_SECTIONS: FAQSection[] = [
     questions: [
       {
         q: 'How much does it cost to sell?',
-        a: 'Nothing. There are no listing fees and no seller transaction fees. The buyer pays a service fee, and you keep the full price you list at.',
+        a: 'There are no listing fees. A 5% transaction fee is deducted from the sale price when an item sells. This is lower than most competing marketplaces.',
       },
       {
         q: 'When do I get paid?',
@@ -201,7 +205,7 @@ export const FAQ_SECTIONS: FAQSection[] = [
       },
       {
         q: 'Who pays for return shipping?',
-        a: 'When a dispute is resolved in the buyer\'s favor with a return, the buyer ships the item back and receives a full refund. If the issue was the seller\'s fault (item not as described, wrong item sent), our team may include a return shipping credit to cover the buyer\'s return postage. For low-value items where return shipping isn\'t practical, we may issue a full refund without requiring a return.',
+        a: 'When a dispute is resolved with a return, the buyer ships the item back with tracking and is refunded once the seller confirms receipt. dollrbin does not pay for return shipping. If the issue was the seller\'s fault (item not as described or wrong item sent), the return shipping cost is the seller\'s responsibility and is deducted from their payout, so the buyer isn\'t left out of pocket. Otherwise — for example, the buyer changed their mind — the buyer covers return shipping. For low-value items where a return isn\'t worth the postage, a dispute may instead be resolved with a partial or full refund and no return required.',
       },
       {
         q: 'What if someone files a chargeback instead of a dispute?',
