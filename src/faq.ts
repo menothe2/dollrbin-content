@@ -213,7 +213,7 @@ export const FAQ_SECTIONS: FAQSection[] = [
       },
       {
         q: 'Who pays for return shipping?',
-        a: 'When a dispute is resolved with a return, the buyer ships the item back with tracking and is refunded once the seller confirms receipt. dollrbin does not pay for return shipping. If the issue was the seller\'s fault (item not as described or wrong item sent), the return shipping cost is the seller\'s responsibility and is deducted from their payout, so the buyer isn\'t left out of pocket. Otherwise — for example, the buyer changed their mind — the buyer covers return shipping. For low-value items where a return isn\'t worth the postage, a dispute may instead be resolved with a partial or full refund and no return required.',
+        a: 'Return shipping is the seller\'s responsibility — never the buyer\'s, and never dollrbin\'s. A return only happens when a dispute is resolved in the buyer\'s favor (the item wasn\'t as described, was the wrong item, or arrived damaged), so the cost of sending it back falls to the seller, not the buyer. When a return is required, you ship the item back with tracking and, once the seller confirms receipt, you receive a full refund of everything you paid — item price, original shipping, and service fee. For low-value or destroyed items where a return isn\'t worth the postage, a dispute may instead be resolved with a partial or full refund and no return required.',
       },
       {
         q: 'What if someone files a chargeback instead of a dispute?',
