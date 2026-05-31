@@ -103,6 +103,10 @@ export const FAQ_SECTIONS: FAQSection[] = [
         a: 'Sellers must ship within 5 business days of payment. If you don\'t ship within that window, the order is automatically cancelled, the buyer is refunded, and your listing is reactivated.',
       },
       {
+        q: 'What happens if I repeatedly fail to ship orders?',
+        a: 'Each order that is auto-cancelled for non-shipment counts against your account. A pattern of unshipped orders — or a high cancellation rate — flags your account for review and can lead to warnings, temporary selling restrictions (such as held payouts or being unable to create new listings), or suspension. Because payouts are only released after delivery is confirmed, you are never paid for an order you don\'t ship; these measures exist to protect buyers from sellers who repeatedly take orders they can\'t fulfill.',
+      },
+      {
         q: 'How do I ship my records safely?',
         a: 'Use a sturdy mailer with cardboard stiffeners or a purpose-built LP mailer. Wrap the record in a plastic sleeve and cushion it to prevent seam splits. Always use tracked shipping \u2014 you\'re required to add a tracking number to every order.',
       },
@@ -202,6 +206,10 @@ export const FAQ_SECTIONS: FAQSection[] = [
       {
         q: 'What happens if a return is required?',
         a: 'If a dispute is resolved with a return, the buyer has 7 days to ship the item back with tracking and must upload at least 2 live camera photos of the item packed for return. The refund is only issued after the seller confirms receipt, not when the return ships. The seller must record an unboxing video when receiving the return. If the buyer doesn\'t ship within 7 days, the refund is cancelled and funds are released to the seller. The seller also has 7 days to confirm or reject the return. If they don\'t respond, the return is automatically confirmed and the buyer is refunded.',
+      },
+      {
+        q: 'What if the seller doesn\'t respond to my dispute?',
+        a: 'A seller ignoring a dispute does not stall your case. When you open a dispute the seller is notified and given a chance to respond, but our team reviews every case based on the available evidence — tracking, your photos, and your message history with the seller — and issues a resolution regardless of whether the seller replies. Where a dispute is resolved with a return, the seller has 7 days to confirm or reject it; if they don\'t respond, the return is automatically confirmed and you are refunded. Sellers who repeatedly go silent on disputes are flagged for review and may face restrictions or suspension.',
       },
       {
         q: 'Who pays for return shipping?',

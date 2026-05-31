@@ -88,7 +88,7 @@ export const TERMS_SECTIONS: TermsSection[] = [
   },
   {
     title: '10. Account suspension',
-    body: 'We reserve the right to suspend or terminate accounts that violate these terms, including but not limited to: repeated condition misrepresentation, fraudulent disputes, filing chargebacks instead of using our dispute system, harassment of other users, listing prohibited items, or any form of marketplace manipulation. Suspended users will be notified by email.',
+    body: 'We reserve the right to suspend or terminate accounts that violate these terms, including but not limited to: repeated failure to ship paid orders, a high order-cancellation rate, repeatedly ignoring disputes, repeated condition misrepresentation, fraudulent disputes, filing chargebacks instead of using our dispute system, harassment of other users, listing prohibited items, or any form of marketplace manipulation. Depending on severity, enforcement may include warnings, temporary selling restrictions (such as held payouts or suspended listing privileges), or full account suspension. Suspended users will be notified by email.',
   },
   {
     title: '11. Disclaimers',
