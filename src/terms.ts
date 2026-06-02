@@ -4,8 +4,8 @@ export const LAST_UPDATED = 'May 2026'
 
 export const TERMS_SECTIONS: TermsSection[] = [
   {
-    title: '1. Acceptance',
-    body: 'By creating an account or using dollrbin ("the Service"), you agree to these Terms of Service. If you do not agree, do not use the Service. You must be at least 18 years old to use the Service.',
+    title: '1. Acceptance and eligibility',
+    body: 'By creating an account or using dollrbin ("the Service"), you agree to these Terms of Service. If you do not agree, do not use the Service.\n\nEligibility: You must be at least 18 years old and able to form a legally binding contract to use the Service. By creating an account or using the Service, you represent and warrant that: (a) you are at least 18 years of age; (b) you have the legal capacity and authority to enter into these Terms; (c) you are not barred from using the Service under the laws of the United States or any other applicable jurisdiction; and (d) the information you provide is accurate and truthful. The Service is not directed to, and may not be used by, anyone under 18. If we learn that an account belongs to a person under 18, we may suspend or terminate it.',
   },
   {
     title: '2. The Service',
