@@ -138,31 +138,6 @@ export const FAQ_SECTIONS: FAQSection[] = [
     ],
   },
   {
-    heading: 'Dollar Bins',
-    questions: [
-      {
-        q: 'What are Dollar Bins?',
-        a: 'Dollar Bins are a way for sellers to offer records at $2 each. Sellers create a single dollar bin and add records to it. Buyers browse a seller\'s bin, pick the records they want, and check out with combined shipping calculated automatically.',
-      },
-      {
-        q: 'Is there a minimum number of records I need to buy?',
-        a: 'Each seller sets their own minimum pick, typically 5 records, but it varies. You\'ll see the minimum on the seller\'s dollar bin page before you start picking.',
-      },
-      {
-        q: 'How is shipping calculated for Dollar Bin orders?',
-        a: 'Shipping is calculated automatically based on how many records you pick. You don\'t need to negotiate shipping with the seller.',
-      },
-      {
-        q: 'Can I return Dollar Bin records?',
-        a: 'Dollar Bin purchases are final sale, so no returns for change of mind. However, you\'re still protected if records are significantly misgraded or arrive damaged.',
-      },
-      {
-        q: 'How do I create a Dollar Bin as a seller?',
-        a: 'Go to your dashboard and click "Dollar Bin" in the sidebar. You can create your bin, set a minimum pick, and start adding records. Each record needs a photo, condition grade, and basic details.',
-      },
-    ],
-  },
-  {
     heading: 'Shipping',
     questions: [
       {
