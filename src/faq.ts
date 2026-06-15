@@ -31,7 +31,7 @@ export const FAQ_SECTIONS: FAQSection[] = [
       },
       {
         q: 'What if the record isn\'t as described?',
-        a: 'Open a dispute from your order page within 48 hours of delivery. Upload at least 2 photos showing the issue. The seller has 5 days to respond, and both parties can exchange messages and evidence. Our team reviews everything and decides the outcome: partial refund, full refund with or without return, or dispute denied. We take condition misrepresentation seriously, and sellers who repeatedly misrepresent items risk suspension.',
+        a: 'Open a dispute from your order page within 48 hours of delivery. Upload at least one photo showing the issue. The seller has 5 days to respond, and both parties can exchange messages and evidence. Our team reviews everything and decides the outcome: partial refund, full refund with or without return, or dispute denied. We take condition misrepresentation seriously, and sellers who repeatedly misrepresent items risk suspension.',
       },
       {
         q: 'When does the seller get paid?',
@@ -92,7 +92,7 @@ export const FAQ_SECTIONS: FAQSection[] = [
       },
       {
         q: 'How many photos do I need?',
-        a: 'At least 3 listing photos of the actual item you\'re selling. When you ship, you\'re also required to upload at least 2 photos of the item and packaging. These are captured live from your camera to ensure authenticity and are used as evidence if a dispute or chargeback is filed.',
+        a: 'At least 2 listing photos of the actual item you\'re selling (front cover and center label). When you ship, you\'re also required to upload at least 2 photos of the item and packaging — you can take these with your camera or upload them, and they\'re used as evidence if a dispute or chargeback is filed.',
       },
       {
         q: 'Do I need a return address?',
@@ -100,7 +100,7 @@ export const FAQ_SECTIONS: FAQSection[] = [
       },
       {
         q: 'How long do I have to ship?',
-        a: 'Sellers must ship within 5 business days of payment. If you don\'t ship within that window, the order is automatically cancelled, the buyer is refunded, and your listing is reactivated.',
+        a: 'Sellers must ship within 5 days of payment. If you don\'t ship within that window, the order is automatically cancelled, the buyer is refunded, and your listing is reactivated.',
       },
       {
         q: 'What happens if I repeatedly fail to ship orders?',
@@ -180,15 +180,15 @@ export const FAQ_SECTIONS: FAQSection[] = [
       },
       {
         q: 'What happens if a return is required?',
-        a: 'If a dispute is resolved with a return, the buyer has 7 days to ship the item back with tracking and must upload at least 2 live camera photos of the item packed for return. The refund is only issued after the seller confirms receipt, not when the return ships. The seller must record an unboxing video when receiving the return. If the buyer doesn\'t ship within 7 days, the refund is cancelled and funds are released to the seller. The seller also has 7 days to confirm or reject the return. If they don\'t respond, the return is automatically confirmed and the buyer is refunded.',
+        a: 'If a dispute is resolved with a return, the buyer has 7 days to ship the item back with tracking (14 days for international returns) and must upload at least 2 photos of the item packed for return. The refund is only issued after the seller confirms receipt, not when the return ships. The seller must record an unboxing video when receiving the return. If the buyer doesn\'t ship by the deadline, the refund is cancelled and funds are released to the seller. Once the return is delivered, the seller has 48 hours to confirm or reject it. If they don\'t respond, the return is automatically confirmed and the buyer is refunded.',
       },
       {
         q: 'What if the seller doesn\'t respond to my dispute?',
-        a: 'A seller ignoring a dispute does not stall your case. When you open a dispute the seller is notified and given a chance to respond, but our team reviews every case based on the available evidence — tracking, your photos, and your message history with the seller — and issues a resolution regardless of whether the seller replies. Where a dispute is resolved with a return, the seller has 7 days to confirm or reject it; if they don\'t respond, the return is automatically confirmed and you are refunded. Sellers who repeatedly go silent on disputes are flagged for review and may face restrictions or suspension.',
+        a: 'A seller ignoring a dispute does not stall your case. When you open a dispute the seller is notified and given a chance to respond, but our team reviews every case based on the available evidence — tracking, your photos, and your message history with the seller — and issues a resolution regardless of whether the seller replies. Where a dispute is resolved with a return, the seller has 48 hours after the return is delivered to confirm or reject it; if they don\'t respond, the return is automatically confirmed and you are refunded. Sellers who repeatedly go silent on disputes are flagged for review and may face restrictions or suspension.',
       },
       {
         q: 'Who pays for return shipping?',
-        a: 'Return shipping is the seller\'s responsibility — never the buyer\'s, and never dollrbin\'s. A return only happens when a dispute is resolved in the buyer\'s favor (the item wasn\'t as described, was the wrong item, or arrived damaged), so the cost of sending it back falls to the seller, not the buyer. When a return is required, you ship the item back with tracking and, once the seller confirms receipt, you receive a full refund of everything you paid — item price, original shipping, and service fee. For low-value or destroyed items where a return isn\'t worth the postage, a dispute may instead be resolved with a partial or full refund and no return required.',
+        a: 'Return shipping is the seller\'s responsibility — never the buyer\'s, and never dollrbin\'s. A return only happens when a dispute is resolved in the buyer\'s favor (the item wasn\'t as described, was the wrong item, or arrived damaged), so the cost of sending it back falls to the seller, not the buyer. When a return is required, you ship the item back with tracking and, once the seller confirms receipt, you receive a full refund of everything you paid — item price, original shipping, service fee, and any sales tax. For low-value or destroyed items where a return isn\'t worth the postage, a dispute may instead be resolved with a partial or full refund and no return required.',
       },
       {
         q: 'What if someone files a chargeback instead of a dispute?',
