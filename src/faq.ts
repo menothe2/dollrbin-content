@@ -39,7 +39,11 @@ export const FAQ_SECTIONS: FAQSection[] = [
       },
       {
         q: 'How long do I have to complete payment?',
-        a: 'You have 24 hours from the time you initiate a purchase to complete payment. If you don\'t pay within that window, the order is automatically cancelled and the listing becomes available to other buyers again.',
+        a: 'For a fixed-price purchase you have 24 hours from the time you initiate it. If you win an auction, you have 48 hours to pay. Either way, if you don\'t pay within the window the order is automatically cancelled and the listing becomes available again.',
+      },
+      {
+        q: 'Are auction bids binding?',
+        a: 'Yes. Placing a bid is a commitment to buy at that price. If you win, you have 48 hours to complete payment. If you don\'t pay, the order is cancelled, the record is released, and the non-payment is recorded against your account. Repeated non-payment suspends your ability to bid — the first time is a warning, a second results in a 30-day bidding suspension, and further offenses lead to a longer suspension and account review. You can always still buy fixed-price listings. Only bid if you intend to pay.',
       },
       {
         q: 'What payment methods are accepted?',
@@ -89,6 +93,10 @@ export const FAQ_SECTIONS: FAQSection[] = [
       {
         q: 'Can I cancel an auction?',
         a: 'Only before any bids are placed. Once someone has bid, the auction runs to completion.',
+      },
+      {
+        q: 'What if the winning bidder doesn\'t pay?',
+        a: 'Winners have 48 hours to pay. If they don\'t, the order is automatically cancelled and your listing is released so you can relist it — you\'re never left waiting indefinitely. The non-paying bidder receives a strike against their bidding privileges, and repeat offenders are suspended from bidding.',
       },
       {
         q: 'How many photos do I need?',

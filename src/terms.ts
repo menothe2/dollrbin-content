@@ -50,6 +50,7 @@ export const TERMS_SECTIONS: TermsSection[] = [
     title: '7. Buyer obligations',
     items: [
       'Buyers must complete payment within 24 hours of initiating a purchase. Unpaid orders are automatically cancelled.',
+      'Placing a bid in an auction is a binding commitment to purchase. If you are the winning bidder, you must complete payment within 48 hours of the auction ending. If you do not pay within that window, the order is cancelled and the record is released for relisting. Repeated non-payment results in suspension of your bidding privileges — you may still purchase fixed-price listings — and may lead to further account restrictions.',
       'Buyers should inspect items promptly upon delivery and report issues within the dispute window.',
       'Buyers with a dispute rate above 20% (with 3 or more purchases) are blocked from making new purchases.',
       'Buyers who file a chargeback with their bank instead of using our dispute system may be permanently suspended from making future purchases.',
