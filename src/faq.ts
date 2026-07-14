@@ -6,7 +6,7 @@ export const FAQ_SECTIONS: FAQSection[] = [
     questions: [
       {
         q: 'What is dollrbin?',
-        a: 'dollrbin is a marketplace for buying and selling used vinyl records. Every sale is protected. Payment goes directly to the seller\'s Stripe account, but payouts to their bank are held until delivery is confirmed, then released 48 hours later \u2014 giving buyers time to inspect their order and open a dispute if something isn\'t right.',
+        a: 'dollrbin is a marketplace for buying and selling used vinyl records. Every sale is protected. Payment goes directly to the seller\'s Stripe account, but payouts to their bank are held until the record is delivered. You then have 7 days to play it, inspect it, and open a dispute if something isn\'t right.',
       },
       {
         q: 'How is dollrbin different from other marketplaces?',
@@ -23,7 +23,7 @@ export const FAQ_SECTIONS: FAQSection[] = [
     questions: [
       {
         q: 'Are there any fees for buyers?',
-        a: 'There\'s a small service fee added at checkout: 3% of the item price, with a $0.50 minimum. This covers buyer protection and platform costs. You\'ll see the exact total before you pay.',
+        a: 'No. Buyers pay no platform or service fee — you pay the item price, shipping, and any applicable sales tax, and that\'s it. Buyer protection is included at no extra cost. You\'ll always see the exact total before you pay.',
       },
       {
         q: 'What happens if my record never arrives?',
@@ -31,11 +31,11 @@ export const FAQ_SECTIONS: FAQSection[] = [
       },
       {
         q: 'What if the record isn\'t as described?',
-        a: 'Open a dispute from your order page within 48 hours of delivery. Upload at least one photo showing the issue. The seller has 5 days to respond, and both parties can exchange messages and evidence. Our team reviews everything and decides the outcome: partial refund, full refund with or without return, or dispute denied. We take condition misrepresentation seriously, and sellers who repeatedly misrepresent items risk suspension.',
+        a: 'Open a dispute from your order page within 7 days of delivery. Upload at least one photo showing the issue. The seller has 5 days to respond, and both parties can exchange messages and evidence. Our team reviews everything and decides the outcome: partial refund, full refund with or without return, or dispute denied. We take condition misrepresentation seriously, and sellers who repeatedly misrepresent items risk suspension.',
       },
       {
         q: 'When does the seller get paid?',
-        a: 'Payment is captured at checkout and deposited into the seller\'s Stripe balance. Payouts to the seller\'s bank are held until delivery is confirmed via tracking, then released 48 hours later. This gives buyers time to inspect the record and open a dispute if needed. If a dispute is opened during this window, the refund comes from the seller\'s Stripe balance.',
+        a: 'Payment is captured at checkout and deposited into the seller\'s Stripe balance. Payouts to the seller\'s bank are held until delivery is confirmed via tracking, then released 2 to 7 days later depending on the seller\'s track record. Your right to open a dispute is separate: you always get 7 days from delivery, whether or not the seller has been paid yet. If a dispute is upheld after the seller was paid, we recover the refund from them.',
       },
       {
         q: 'How long do I have to complete payment?',
@@ -72,7 +72,7 @@ export const FAQ_SECTIONS: FAQSection[] = [
       },
       {
         q: 'When do I get paid?',
-        a: 'Payouts are released when the buyer confirms receipt or 48 hours after delivery is confirmed via tracking, whichever comes first. This ensures funds are available if a dispute is opened. After the release, your payout transfers to your connected bank account automatically (typically 2 business days).',
+        a: 'Payouts are released when the buyer confirms receipt, or automatically after delivery is confirmed via tracking \u2014 whichever comes first. How long we hold it depends on your track record: 7 days when you\'re starting out, 4 days once you have 5 completed sales, and 2 days once you\'re a Trusted Seller (5+ ratings averaging 4.5\u2605 or better). You can see which tier you\'re on, and what gets you to the next one, on your Payouts page. After release, the payout transfers to your bank automatically (typically 2 business days).',
       },
       {
         q: 'How does payment actually reach me?',
@@ -172,11 +172,11 @@ export const FAQ_SECTIONS: FAQSection[] = [
     questions: [
       {
         q: 'How does payment protection work?',
-        a: 'When a buyer pays, funds go directly to the seller\'s Stripe account. Payouts to the seller\'s bank are held until delivery is confirmed via tracking, then there\'s a 48-hour inspection window. If no dispute is opened, the payout is released to the seller\'s bank account.',
+        a: 'When a buyer pays, funds go directly to the seller\'s Stripe account, but the payout to their bank is held until the record is delivered. Two things then happen on separate clocks: the buyer gets 7 days to inspect the record and raise a dispute, and the seller is paid 2 to 7 days after delivery depending on their track record. The buyer\'s 7 days never changes \u2014 if a dispute is upheld after the seller has been paid, dollrbin recovers the refund from the seller.',
       },
       {
         q: 'How does buyer protection work?',
-        a: 'Payment goes directly to the seller\'s Stripe account, but payouts to their bank are held until delivery is confirmed, then released 48 hours later. If a record arrives damaged or not as described, open a dispute from your order page before the payout is released. Our team reviews the case and can issue a full or partial refund from the seller\'s balance. Stripe\'s 120-day chargeback window provides an additional layer of protection.',
+        a: 'Payment goes directly to the seller\'s Stripe account, but the payout to their bank is held until the record is delivered. If it arrives damaged or not as described, open a dispute from your order page within 7 days. You do not need to beat the seller\'s payout \u2014 your 7 days stand even if they have already been paid, and we recover the refund from them. Our team reviews the case and can issue a full or partial refund. Stripe\'s 120-day chargeback window provides an additional layer of protection.',
       },
       {
         q: 'How does seller protection work?',
@@ -184,7 +184,7 @@ export const FAQ_SECTIONS: FAQSection[] = [
       },
       {
         q: 'How long do I have to open a dispute?',
-        a: 'You have 48 hours after delivery is confirmed to inspect the record and open a dispute. Delivery is tracked automatically \u2014 once the carrier confirms delivery, a 48-hour inspection window begins. After this window closes, funds are released to the seller. Buyers can also confirm receipt early to release funds sooner.',
+        a: 'You have 7 days after delivery is confirmed to inspect the record and open a dispute \u2014 enough time to actually get it on a turntable and play both sides. Delivery is tracked automatically. Confirming receipt yourself ends the window early and releases the seller\'s funds, so only confirm once you\'re happy with the record.',
       },
       {
         q: 'What happens if a return is required?',
@@ -196,7 +196,7 @@ export const FAQ_SECTIONS: FAQSection[] = [
       },
       {
         q: 'Who pays for return shipping?',
-        a: 'Return shipping is the seller\'s responsibility — never the buyer\'s, and never dollrbin\'s. A return only happens when a dispute is resolved in the buyer\'s favor (the item wasn\'t as described, was the wrong item, or arrived damaged), so the cost of sending it back falls to the seller, not the buyer. When a return is required, you ship the item back with tracking and, once the seller confirms receipt, you receive a full refund of everything you paid — item price, original shipping, service fee, and any sales tax. For low-value or destroyed items where a return isn\'t worth the postage, a dispute may instead be resolved with a partial or full refund and no return required.',
+        a: 'Return shipping is the seller\'s responsibility — never the buyer\'s, and never dollrbin\'s. A return only happens when a dispute is resolved in the buyer\'s favor (the item wasn\'t as described, was the wrong item, or arrived damaged), so the cost of sending it back falls to the seller, not the buyer. When a return is required, you ship the item back with tracking and, once the seller confirms receipt, you receive a full refund of everything you paid — item price, original shipping, and any sales tax. For low-value or destroyed items where a return isn\'t worth the postage, a dispute may instead be resolved with a partial or full refund and no return required.',
       },
       {
         q: 'What if someone files a chargeback instead of a dispute?',

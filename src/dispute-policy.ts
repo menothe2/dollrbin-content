@@ -27,7 +27,7 @@ export const DISPUTE_POLICY_SECTIONS: DisputePolicySection[] = [
       'Buyer\'s remorse: you changed your mind or no longer want the record.',
       'Minor cosmetic issues consistent with the listed condition grade (e.g., light sleeve wear on a VG+ record).',
       'Disagreement about subjective grading within one grade level. Grading is inherently subjective. If a record is listed as VG+ and you\'d call it VG, that alone may not qualify.',
-      'Issues reported after the 48-hour inspection window has closed (starts when delivery is confirmed via tracking).',
+      'Issues reported after the 7-day inspection window has closed (starts when delivery is confirmed via tracking, or when you confirm receipt).',
     ],
   },
   {
@@ -54,7 +54,7 @@ export const DISPUTE_POLICY_SECTIONS: DisputePolicySection[] = [
   {
     heading: 'Timeline',
     items: [
-      'Dispute window: buyers can open a dispute within the 48-hour inspection window after delivery is confirmed via tracking.',
+      'Dispute window: buyers have 7 days from confirmed delivery to open a dispute. This is the same for every order. If the seller has already been paid, you can still open a dispute — we recover the refund from the seller.',
       'Seller response: the seller has 5 days to respond with one proposal. A reminder is sent after 48 hours. If the seller doesn\'t respond, the dispute is resolved in the buyer\'s favor.',
       'Buyer response: if the seller proposes a resolution, the buyer has 5 days to accept or escalate. If the buyer doesn\'t respond, the seller\'s proposal is automatically accepted.',
       'Dispute messaging: both parties can exchange messages and photos through the dispute thread while the case is open.',

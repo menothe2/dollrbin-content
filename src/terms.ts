@@ -30,7 +30,7 @@ export const TERMS_SECTIONS: TermsSection[] = [
   },
   {
     title: '5. Fees and payments',
-    body: 'Buying on dollrbin incurs a service fee added at checkout (currently 3% of the item price, minimum $0.50). Sellers pay a 5% transaction fee deducted from the sale price when an item sells. There are no listing fees. Fees are shown clearly before you complete any purchase. dollrbin reserves the right to adjust fee percentages with 30 days\' notice.\n\nApplicable sales tax is calculated and collected at checkout based on the buyer\'s shipping address, in accordance with marketplace facilitator laws. dollrbin remits collected taxes to the appropriate tax authorities.\n\nAll payments are processed by Stripe directly on the seller\'s connected payment account. dollrbin never stores your payment card details. Funds are held in the seller\'s Stripe balance during shipping and released 48 hours after delivery is confirmed by the carrier, provided no dispute has been opened. Buyers can also confirm receipt early to release funds immediately.',
+    body: 'Buyers pay no platform or service fee — only the item price, shipping, and any applicable sales tax. Sellers pay a 5% transaction fee deducted from the sale price when an item sells. There are no listing fees. Fees are shown clearly before you complete any purchase. dollrbin reserves the right to adjust fee percentages with 30 days\' notice.\n\nApplicable sales tax is calculated and collected at checkout based on the buyer\'s shipping address, in accordance with marketplace facilitator laws. dollrbin remits collected taxes to the appropriate tax authorities.\n\nAll payments are processed by Stripe directly on the seller\'s connected payment account. dollrbin never stores your payment card details. Funds are held in the seller\'s Stripe balance during shipping and released 2 to 7 days after delivery is confirmed by the carrier, depending on the seller\'s selling history. Buyers can also confirm receipt early to release funds immediately. Releasing a seller\'s payout does not end the buyer\'s right to open a dispute — see section 8.',
   },
   {
     title: '6. Seller obligations',
@@ -62,9 +62,11 @@ export const TERMS_SECTIONS: TermsSection[] = [
     body: 'dollrbin controls seller payouts during shipping to protect both parties:',
     items: [
       'Payment is captured at checkout and deposited into the seller\'s Stripe balance. Payouts to the seller\'s bank are held until delivery is confirmed.',
-      'Once the carrier confirms delivery, the seller\'s payout is released after a 48-hour inspection window.',
+      'Buyers have 7 days from confirmed delivery to inspect the record and open a dispute. This window is the same for every order and does not change based on who the seller is or when the seller is paid.',
+      'Separately, the seller\'s payout is released 2 to 7 days after confirmed delivery, depending on their selling history on dollrbin. Sellers with an established track record are paid sooner.',
       'Buyers can confirm receipt at any time to release the seller\'s payout immediately.',
       'If a dispute is opened before the payout is released, the seller\'s payout is held until the dispute is resolved.',
+      'If a dispute is opened after the payout has already been released — which can happen, because the buyer\'s 7-day window may outlast the seller\'s payout hold — dollrbin may recover the refunded amount from the seller\'s Stripe balance or connected bank account. Sellers remain responsible for valid refunds on their sales regardless of when they were paid.',
       'If delivery tracking is unavailable, a fallback release window applies to ensure sellers are eventually paid.',
       'Sellers are responsible for any chargeback fees assessed by our payment processor. dollrbin automatically submits tracking and shipping evidence to fight chargebacks on the seller\'s behalf.',
     ],
@@ -73,7 +75,7 @@ export const TERMS_SECTIONS: TermsSection[] = [
     title: '9. Disputes and returns',
     body: 'Our full dispute policy is available at dollrbin.com/dispute-policy. Key points:',
     items: [
-      'Buyers may open a dispute within the 48-hour inspection window after delivery is confirmed by the carrier.',
+      'Buyers may open a dispute within 7 days of delivery being confirmed by the carrier. Confirming receipt ends this window immediately.',
       'Valid dispute reasons include: item not as described, wrong item, damaged in transit, or never received.',
       'Buyer\'s remorse is not a valid dispute reason.',
       'Disputes can only be opened on orders that are currently shipping or have been delivered. Orders that have been cancelled, refunded, or completed cannot be disputed.',
