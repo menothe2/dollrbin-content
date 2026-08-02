@@ -1,6 +1,6 @@
 import type { TermsSection } from './types'
 
-export const LAST_UPDATED = 'May 2026'
+export const LAST_UPDATED = 'August 2026'
 
 export const TERMS_SECTIONS: TermsSection[] = [
   {
@@ -90,47 +90,59 @@ export const TERMS_SECTIONS: TermsSection[] = [
     ],
   },
   {
-    title: '10. Account suspension',
+    title: '10. Consumer cancellation rights (EU, EEA and UK)',
+    body: 'This section is under legal review and may be revised. It describes rights dollrbin already applies to your sales today.\n\nIf you sell as a business, and your buyer is a consumer in the EU, EEA or the UK, that buyer has a statutory right to cancel the order. This applies wherever you are based \u2014 a US business seller owes this right to a UK consumer. It does not apply if you sell privately rather than as a business, and it does not apply to buyers outside the EU, EEA and UK.\n\nThe buyer may cancel for any reason, without giving one, within 14 days of receiving the item. They then have a further 14 days to send it back. No fault is required and no explanation is owed to you. This is separate from the dispute process in section 9, which covers items that arrive damaged, faulty or not as described.\n\nA cancellation under this section is a statutory right, not a request. You cannot decline it, condition it, or charge a restocking fee. dollrbin will process the refund on your behalf once the item is back with you, or once the cancellation period has run its course.',
+    items: [
+      'What is refunded: the item price and the original standard delivery charge the buyer paid, in full. If the buyer chose a more expensive delivery option than your cheapest standard one, only the cost of the standard option need be refunded.',
+      'Return postage: the buyer pays to send the item back, unless we failed to tell them so before they bought. You are not required to fund a prepaid return label for a cancellation \u2014 this differs from a fault-based return under section 9, where return postage is yours.',
+      'If the item is not sent back: if the buyer cancels but does not send the item within their 14-day return window, the payment is released to you and the cancellation lapses.',
+      'Condition on return: the buyer may handle the item as they would in a shop. They are liable for any reduction in value caused by handling beyond that.',
+      'Sealed records: consumer law in some jurisdictions permits a trader to refuse cancellation of sealed audio recordings once the seal is broken. dollrbin does not rely on that exemption. Every record sold through the platform may be cancelled under this section, sealed or not.',
+      'If the buyer was not told: where the buyer was not informed of this right before purchase, the cancellation period extends to twelve months and 14 days. dollrbin shows this notice before purchase on your behalf wherever the sale goes through checkout; where no such notice was given, the extended period applies.',
+    ],
+  },
+  {
+    title: '11. Account suspension',
     body: 'We reserve the right to suspend or terminate accounts that violate these terms, including but not limited to: repeated failure to ship paid orders, a high order-cancellation rate, repeatedly ignoring disputes, repeated condition misrepresentation, fraudulent disputes, filing chargebacks instead of using our dispute system, harassment of other users, listing prohibited items, or any form of marketplace manipulation. Depending on severity, enforcement may include warnings, temporary selling restrictions (such as held payouts or suspended listing privileges), or full account suspension. Suspended users will be notified by email.',
   },
   {
-    title: '11. Disclaimers',
+    title: '12. Disclaimers',
     body: 'The Service is provided "as is" without warranties of any kind. We do not guarantee uninterrupted availability, accuracy of match alerts, or that any specific record will be found. dollrbin is not a party to transactions between buyers and sellers. We facilitate the transaction and provide dispute resolution, but we do not take possession of items or guarantee their condition.',
   },
   {
-    title: '12. Dispute decision authority',
+    title: '13. Dispute decision authority',
     body: 'You acknowledge and agree that dollrbin has sole and absolute discretion to resolve disputes between buyers and sellers. Our dispute decisions \u2014 including determinations regarding refunds, partial refunds, returns, and account actions \u2014 are final and binding on all parties.\n\ndollrbin acts as a neutral facilitator and is not a party to any transaction between buyers and sellers. We do not guarantee the accuracy of listings, the condition of items, or the conduct of any user. We are not liable for the actions, omissions, or representations of any buyer or seller on the platform.\n\nBy using the Service, you waive any right to challenge, appeal, or seek judicial review of dispute decisions made by dollrbin, except through the arbitration process described in Section 13 or as required by applicable law.',
   },
   {
-    title: '13. Binding arbitration and class action waiver',
+    title: '14. Binding arbitration and class action waiver',
     body: 'PLEASE READ THIS SECTION CAREFULLY. IT AFFECTS YOUR LEGAL RIGHTS, INCLUDING YOUR RIGHT TO FILE A LAWSUIT IN COURT.\n\nYou and dollrbin agree that any dispute, claim, or controversy arising out of or relating to these Terms, the Service, or any transaction facilitated through the Service (collectively, "Disputes") will be resolved through binding individual arbitration rather than in court, except that either party may bring qualifying claims in small claims court.\n\nArbitration rules: Arbitration will be administered by JAMS under its Streamlined Arbitration Rules and Procedures, or by another mutually agreed-upon arbitration provider. The arbitration will be conducted in English. The arbitrator\'s decision will be final and binding and may be entered as a judgment in any court of competent jurisdiction.\n\nInformal resolution first: Before initiating arbitration, you agree to first contact us at hello@dollrbin.com and attempt to resolve the Dispute informally for at least 30 days. If we cannot resolve the Dispute informally, either party may then proceed to arbitration.\n\nClass action waiver: YOU AND DOLLRBIN AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN YOUR INDIVIDUAL CAPACITY AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS, CONSOLIDATED, OR REPRESENTATIVE ACTION. The arbitrator may not consolidate more than one person\'s claims and may not preside over any form of representative or class proceeding.\n\nOpt-out: You may opt out of this arbitration agreement by sending written notice to hello@dollrbin.com within 30 days of creating your account. If you opt out, you and dollrbin may each bring claims against the other in court.',
   },
   {
-    title: '14. Indemnification',
+    title: '15. Indemnification',
     body: 'You agree to indemnify, defend, and hold harmless dollrbin, its officers, directors, employees, and agents from and against any claims, liabilities, damages, losses, costs, and expenses (including reasonable attorneys\' fees) arising out of or relating to: (a) your use of the Service; (b) your violation of these Terms; (c) your violation of any rights of another party, including any buyer or seller; or (d) any content you submit to the Service, including listings, photos, messages, and dispute evidence.',
   },
   {
-    title: '15. Limitation of liability',
+    title: '16. Limitation of liability',
     body: 'To the fullest extent permitted by law, dollrbin\'s total liability to you for any claim arising from use of the Service is limited to the greater of (a) the amount you paid to dollrbin in fees during the 3 months preceding the claim, or (b) $100.\n\nIn no event shall dollrbin be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, goodwill, or other intangible losses, regardless of whether we have been advised of the possibility of such damages.',
   },
   {
-    title: '16. Governing law and jurisdiction',
+    title: '17. Governing law and jurisdiction',
     body: 'These Terms are governed by the laws of the State of California, without regard to its conflict of law provisions. To the extent that arbitration does not apply, you agree to submit to the exclusive jurisdiction of the state and federal courts located in Los Angeles County, California.',
   },
   {
-    title: '17. Changes',
+    title: '18. Changes',
     body: 'We may update these terms from time to time. If we make material changes, we will notify you by email or through the Service at least 30 days before the changes take effect. Continued use of the Service after changes take effect constitutes acceptance of the new terms. If you do not agree to the updated terms, you must stop using the Service.',
   },
   {
-    title: '18. Copyright and DMCA',
+    title: '19. Copyright and DMCA',
     body: 'dollrbin respects the intellectual property rights of others and expects users of the Service to do the same. We will respond to notices of alleged copyright infringement that comply with applicable law and are properly provided to our designated Copyright Agent.\n\nIf you believe that your copyrighted work has been copied or used in a way that constitutes copyright infringement, please visit dollrbin.com/copyright for instructions on how to submit a takedown notice.\n\nIt is dollrbin\'s policy, in appropriate circumstances, to terminate the accounts of users who are repeat infringers.',
   },
   {
-    title: '19. Severability',
+    title: '20. Severability',
     body: 'If any provision of these Terms is found to be unenforceable or invalid by a court or arbitrator, that provision will be enforced to the maximum extent permissible, and the remaining provisions will remain in full force and effect.',
   },
   {
-    title: '20. Contact',
+    title: '21. Contact',
     body: 'Questions? Email hello@dollrbin.com.',
   },
 ]
